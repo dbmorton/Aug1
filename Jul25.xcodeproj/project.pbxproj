@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1232E5E917AAEEEB00BEEAA8 /* doorsclip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1232E5E517AAEEEB00BEEAA8 /* doorsclip.mp3 */; };
+		1232E5EA17AAEEEB00BEEAA8 /* ledclip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1232E5E617AAEEEB00BEEAA8 /* ledclip.mp3 */; };
+		1232E5EB17AAEEEB00BEEAA8 /* stonesclip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1232E5E717AAEEEB00BEEAA8 /* stonesclip.mp3 */; };
+		1232E5EC17AAEEEB00BEEAA8 /* whoclip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1232E5E817AAEEEB00BEEAA8 /* whoclip.mp3 */; };
+		1232E5EE17AAEF9200BEEAA8 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1232E5ED17AAEF9200BEEAA8 /* AudioToolbox.framework */; };
+		12AFAF3517A1C45A002B7EF2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AFAF3417A1C45A002B7EF2 /* UIKit.framework */; };
+		12AFAF3717A1C45A002B7EF2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AFAF3617A1C45A002B7EF2 /* Foundation.framework */; };
+		12AFAF3917A1C45A002B7EF2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12AFAF3817A1C45A002B7EF2 /* CoreGraphics.framework */; };
+		12AFAF3F17A1C45B002B7EF2 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF3D17A1C45B002B7EF2 /* InfoPlist.strings */; };
+		12AFAF4117A1C45B002B7EF2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AFAF4017A1C45B002B7EF2 /* main.m */; };
+		12AFAF4517A1C45B002B7EF2 /* Aug1AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AFAF4417A1C45B002B7EF2 /* Aug1AppDelegate.m */; };
+		12AFAF4717A1C45B002B7EF2 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF4617A1C45B002B7EF2 /* Default.png */; };
+		12AFAF4917A1C45B002B7EF2 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF4817A1C45B002B7EF2 /* Default@2x.png */; };
+		12AFAF4B17A1C45B002B7EF2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF4A17A1C45B002B7EF2 /* Default-568h@2x.png */; };
+		12AFAF5317A1C4BE002B7EF2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AFAF5217A1C4BE002B7EF2 /* ViewController.m */; };
+		12AFAF5617A1C561002B7EF2 /* BandData.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AFAF5517A1C561002B7EF2 /* BandData.m */; };
+		12AFAF5A17A1C8C2002B7EF2 /* info.txt in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF5917A1C8C2002B7EF2 /* info.txt */; };
+		12AFAF5F17A1C8D6002B7EF2 /* doors.txt in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF5B17A1C8D5002B7EF2 /* doors.txt */; };
+		12AFAF6017A1C8D6002B7EF2 /* led.txt in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF5C17A1C8D5002B7EF2 /* led.txt */; };
+		12AFAF6117A1C8D6002B7EF2 /* stones.txt in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF5D17A1C8D5002B7EF2 /* stones.txt */; };
+		12AFAF6217A1C8D6002B7EF2 /* who.txt in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF5E17A1C8D6002B7EF2 /* who.txt */; };
+		12AFAF6717A1C8E9002B7EF2 /* doors.png in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF6317A1C8E9002B7EF2 /* doors.png */; };
+		12AFAF6817A1C8E9002B7EF2 /* led.png in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF6417A1C8E9002B7EF2 /* led.png */; };
+		12AFAF6917A1C8E9002B7EF2 /* stones.png in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF6517A1C8E9002B7EF2 /* stones.png */; };
+		12AFAF6A17A1C8E9002B7EF2 /* who.png in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF6617A1C8E9002B7EF2 /* who.png */; };
+		12AFAF6F17A1C8FD002B7EF2 /* doors.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF6B17A1C8FD002B7EF2 /* doors.mp3 */; };
+		12AFAF7017A1C8FD002B7EF2 /* led.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF6C17A1C8FD002B7EF2 /* led.mp3 */; };
+		12AFAF7117A1C8FD002B7EF2 /* stones.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF6D17A1C8FD002B7EF2 /* stones.mp3 */; };
+		12AFAF7217A1C8FD002B7EF2 /* who.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF6E17A1C8FD002B7EF2 /* who.mp3 */; };
+		12AFAF7D17A1C9F0002B7EF2 /* View.m in Sources */ = {isa = PBXBuildFile; fileRef = 12AFAF7C17A1C9F0002B7EF2 /* View.m */; };
+		12AFAF7F17A1D452002B7EF2 /* doorsTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF7E17A1D452002B7EF2 /* doorsTab.png */; };
+		12AFAF8317A1D566002B7EF2 /* ledZepplinTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF8017A1D566002B7EF2 /* ledZepplinTab.png */; };
+		12AFAF8417A1D566002B7EF2 /* rollingStonesTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF8117A1D566002B7EF2 /* rollingStonesTab.png */; };
+		12AFAF8517A1D566002B7EF2 /* theWhoTab.png in Resources */ = {isa = PBXBuildFile; fileRef = 12AFAF8217A1D566002B7EF2 /* theWhoTab.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1232E5E517AAEEEB00BEEAA8 /* doorsclip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = doorsclip.mp3; path = BandInfo/mp3s/doorsclip.mp3; sourceTree = "<group>"; };
+		1232E5E617AAEEEB00BEEAA8 /* ledclip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ledclip.mp3; path = BandInfo/mp3s/ledclip.mp3; sourceTree = "<group>"; };
+		1232E5E717AAEEEB00BEEAA8 /* stonesclip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = stonesclip.mp3; path = BandInfo/mp3s/stonesclip.mp3; sourceTree = "<group>"; };
+		1232E5E817AAEEEB00BEEAA8 /* whoclip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = whoclip.mp3; path = BandInfo/mp3s/whoclip.mp3; sourceTree = "<group>"; };
+		1232E5ED17AAEF9200BEEAA8 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		12AFAF3117A1C45A002B7EF2 /* Jul25.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jul25.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		12AFAF3417A1C45A002B7EF2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		12AFAF3617A1C45A002B7EF2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12AFAF3817A1C45A002B7EF2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		12AFAF3C17A1C45B002B7EF2 /* Jul25-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jul25-Info.plist"; sourceTree = "<group>"; };
+		12AFAF3E17A1C45B002B7EF2 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		12AFAF4017A1C45B002B7EF2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		12AFAF4217A1C45B002B7EF2 /* Jul25-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jul25-Prefix.pch"; sourceTree = "<group>"; };
+		12AFAF4317A1C45B002B7EF2 /* Aug1AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Aug1AppDelegate.h; sourceTree = "<group>"; };
+		12AFAF4417A1C45B002B7EF2 /* Aug1AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Aug1AppDelegate.m; sourceTree = "<group>"; };
+		12AFAF4617A1C45B002B7EF2 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		12AFAF4817A1C45B002B7EF2 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		12AFAF4A17A1C45B002B7EF2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		12AFAF5117A1C4BE002B7EF2 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		12AFAF5217A1C4BE002B7EF2 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		12AFAF5417A1C561002B7EF2 /* BandData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BandData.h; sourceTree = "<group>"; };
+		12AFAF5517A1C561002B7EF2 /* BandData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BandData.m; sourceTree = "<group>"; };
+		12AFAF5917A1C8C2002B7EF2 /* info.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = info.txt; path = BandInfo/info.txt; sourceTree = "<group>"; };
+		12AFAF5B17A1C8D5002B7EF2 /* doors.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = doors.txt; path = BandInfo/bios/doors.txt; sourceTree = "<group>"; };
+		12AFAF5C17A1C8D5002B7EF2 /* led.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = led.txt; path = BandInfo/bios/led.txt; sourceTree = "<group>"; };
+		12AFAF5D17A1C8D5002B7EF2 /* stones.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = stones.txt; path = BandInfo/bios/stones.txt; sourceTree = "<group>"; };
+		12AFAF5E17A1C8D6002B7EF2 /* who.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = who.txt; path = BandInfo/bios/who.txt; sourceTree = "<group>"; };
+		12AFAF6317A1C8E9002B7EF2 /* doors.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = doors.png; path = BandInfo/images/doors.png; sourceTree = "<group>"; };
+		12AFAF6417A1C8E9002B7EF2 /* led.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = led.png; path = BandInfo/images/led.png; sourceTree = "<group>"; };
+		12AFAF6517A1C8E9002B7EF2 /* stones.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = stones.png; path = BandInfo/images/stones.png; sourceTree = "<group>"; };
+		12AFAF6617A1C8E9002B7EF2 /* who.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = who.png; path = BandInfo/images/who.png; sourceTree = "<group>"; };
+		12AFAF6B17A1C8FD002B7EF2 /* doors.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = doors.mp3; path = BandInfo/mp3s/doors.mp3; sourceTree = "<group>"; };
+		12AFAF6C17A1C8FD002B7EF2 /* led.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = led.mp3; path = BandInfo/mp3s/led.mp3; sourceTree = "<group>"; };
+		12AFAF6D17A1C8FD002B7EF2 /* stones.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = stones.mp3; path = BandInfo/mp3s/stones.mp3; sourceTree = "<group>"; };
+		12AFAF6E17A1C8FD002B7EF2 /* who.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = who.mp3; path = BandInfo/mp3s/who.mp3; sourceTree = "<group>"; };
+		12AFAF7B17A1C9F0002B7EF2 /* View.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = View.h; sourceTree = "<group>"; };
+		12AFAF7C17A1C9F0002B7EF2 /* View.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = View.m; sourceTree = "<group>"; };
+		12AFAF7E17A1D452002B7EF2 /* doorsTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = doorsTab.png; path = BandInfo/tabs/doorsTab.png; sourceTree = "<group>"; };
+		12AFAF8017A1D566002B7EF2 /* ledZepplinTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ledZepplinTab.png; path = BandInfo/tabs/ledZepplinTab.png; sourceTree = "<group>"; };
+		12AFAF8117A1D566002B7EF2 /* rollingStonesTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = rollingStonesTab.png; path = BandInfo/tabs/rollingStonesTab.png; sourceTree = "<group>"; };
+		12AFAF8217A1D566002B7EF2 /* theWhoTab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = theWhoTab.png; path = BandInfo/tabs/theWhoTab.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		12AFAF2E17A1C45A002B7EF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1232E5EE17AAEF9200BEEAA8 /* AudioToolbox.framework in Frameworks */,
+				12AFAF3517A1C45A002B7EF2 /* UIKit.framework in Frameworks */,
+				12AFAF3717A1C45A002B7EF2 /* Foundation.framework in Frameworks */,
+				12AFAF3917A1C45A002B7EF2 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12AFAF2817A1C45A002B7EF2 = {
+			isa = PBXGroup;
+			children = (
+				12AFAF3A17A1C45B002B7EF2 /* Jul25 */,
+				12AFAF3317A1C45A002B7EF2 /* Frameworks */,
+				12AFAF3217A1C45A002B7EF2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		12AFAF3217A1C45A002B7EF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				12AFAF3117A1C45A002B7EF2 /* Jul25.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		12AFAF3317A1C45A002B7EF2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1232E5ED17AAEF9200BEEAA8 /* AudioToolbox.framework */,
+				12AFAF3417A1C45A002B7EF2 /* UIKit.framework */,
+				12AFAF3617A1C45A002B7EF2 /* Foundation.framework */,
+				12AFAF3817A1C45A002B7EF2 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		12AFAF3A17A1C45B002B7EF2 /* Jul25 */ = {
+			isa = PBXGroup;
+			children = (
+				12AFAF8617A1ED1B002B7EF2 /* BandData */,
+				12AFAF4317A1C45B002B7EF2 /* Aug1AppDelegate.h */,
+				12AFAF4417A1C45B002B7EF2 /* Aug1AppDelegate.m */,
+				12AFAF5117A1C4BE002B7EF2 /* ViewController.h */,
+				12AFAF5217A1C4BE002B7EF2 /* ViewController.m */,
+				12AFAF7B17A1C9F0002B7EF2 /* View.h */,
+				12AFAF7C17A1C9F0002B7EF2 /* View.m */,
+				12AFAF5417A1C561002B7EF2 /* BandData.h */,
+				12AFAF5517A1C561002B7EF2 /* BandData.m */,
+				12AFAF3B17A1C45B002B7EF2 /* Supporting Files */,
+			);
+			path = Jul25;
+			sourceTree = "<group>";
+		};
+		12AFAF3B17A1C45B002B7EF2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12AFAF3C17A1C45B002B7EF2 /* Jul25-Info.plist */,
+				12AFAF3D17A1C45B002B7EF2 /* InfoPlist.strings */,
+				12AFAF4017A1C45B002B7EF2 /* main.m */,
+				12AFAF4217A1C45B002B7EF2 /* Jul25-Prefix.pch */,
+				12AFAF4617A1C45B002B7EF2 /* Default.png */,
+				12AFAF4817A1C45B002B7EF2 /* Default@2x.png */,
+				12AFAF4A17A1C45B002B7EF2 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12AFAF8617A1ED1B002B7EF2 /* BandData */ = {
+			isa = PBXGroup;
+			children = (
+				1232E5E517AAEEEB00BEEAA8 /* doorsclip.mp3 */,
+				1232E5E617AAEEEB00BEEAA8 /* ledclip.mp3 */,
+				1232E5E717AAEEEB00BEEAA8 /* stonesclip.mp3 */,
+				1232E5E817AAEEEB00BEEAA8 /* whoclip.mp3 */,
+				12AFAF8017A1D566002B7EF2 /* ledZepplinTab.png */,
+				12AFAF8117A1D566002B7EF2 /* rollingStonesTab.png */,
+				12AFAF8217A1D566002B7EF2 /* theWhoTab.png */,
+				12AFAF7E17A1D452002B7EF2 /* doorsTab.png */,
+				12AFAF6B17A1C8FD002B7EF2 /* doors.mp3 */,
+				12AFAF6C17A1C8FD002B7EF2 /* led.mp3 */,
+				12AFAF6D17A1C8FD002B7EF2 /* stones.mp3 */,
+				12AFAF6E17A1C8FD002B7EF2 /* who.mp3 */,
+				12AFAF6317A1C8E9002B7EF2 /* doors.png */,
+				12AFAF6417A1C8E9002B7EF2 /* led.png */,
+				12AFAF6517A1C8E9002B7EF2 /* stones.png */,
+				12AFAF6617A1C8E9002B7EF2 /* who.png */,
+				12AFAF5B17A1C8D5002B7EF2 /* doors.txt */,
+				12AFAF5C17A1C8D5002B7EF2 /* led.txt */,
+				12AFAF5D17A1C8D5002B7EF2 /* stones.txt */,
+				12AFAF5E17A1C8D6002B7EF2 /* who.txt */,
+				12AFAF5917A1C8C2002B7EF2 /* info.txt */,
+			);
+			name = BandData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		12AFAF3017A1C45A002B7EF2 /* Jul25 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12AFAF4E17A1C45B002B7EF2 /* Build configuration list for PBXNativeTarget "Jul25" */;
+			buildPhases = (
+				12AFAF2D17A1C45A002B7EF2 /* Sources */,
+				12AFAF2E17A1C45A002B7EF2 /* Frameworks */,
+				12AFAF2F17A1C45A002B7EF2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jul25;
+			productName = Jul25;
+			productReference = 12AFAF3117A1C45A002B7EF2 /* Jul25.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		12AFAF2917A1C45A002B7EF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Jul25;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "David Morton Enterprises";
+			};
+			buildConfigurationList = 12AFAF2C17A1C45A002B7EF2 /* Build configuration list for PBXProject "Jul25" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 12AFAF2817A1C45A002B7EF2;
+			productRefGroup = 12AFAF3217A1C45A002B7EF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				12AFAF3017A1C45A002B7EF2 /* Jul25 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		12AFAF2F17A1C45A002B7EF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1232E5E917AAEEEB00BEEAA8 /* doorsclip.mp3 in Resources */,
+				1232E5EA17AAEEEB00BEEAA8 /* ledclip.mp3 in Resources */,
+				1232E5EB17AAEEEB00BEEAA8 /* stonesclip.mp3 in Resources */,
+				1232E5EC17AAEEEB00BEEAA8 /* whoclip.mp3 in Resources */,
+				12AFAF8317A1D566002B7EF2 /* ledZepplinTab.png in Resources */,
+				12AFAF8417A1D566002B7EF2 /* rollingStonesTab.png in Resources */,
+				12AFAF8517A1D566002B7EF2 /* theWhoTab.png in Resources */,
+				12AFAF7F17A1D452002B7EF2 /* doorsTab.png in Resources */,
+				12AFAF6F17A1C8FD002B7EF2 /* doors.mp3 in Resources */,
+				12AFAF7017A1C8FD002B7EF2 /* led.mp3 in Resources */,
+				12AFAF7117A1C8FD002B7EF2 /* stones.mp3 in Resources */,
+				12AFAF7217A1C8FD002B7EF2 /* who.mp3 in Resources */,
+				12AFAF6717A1C8E9002B7EF2 /* doors.png in Resources */,
+				12AFAF6817A1C8E9002B7EF2 /* led.png in Resources */,
+				12AFAF6917A1C8E9002B7EF2 /* stones.png in Resources */,
+				12AFAF6A17A1C8E9002B7EF2 /* who.png in Resources */,
+				12AFAF5F17A1C8D6002B7EF2 /* doors.txt in Resources */,
+				12AFAF6017A1C8D6002B7EF2 /* led.txt in Resources */,
+				12AFAF6117A1C8D6002B7EF2 /* stones.txt in Resources */,
+				12AFAF6217A1C8D6002B7EF2 /* who.txt in Resources */,
+				12AFAF5A17A1C8C2002B7EF2 /* info.txt in Resources */,
+				12AFAF3F17A1C45B002B7EF2 /* InfoPlist.strings in Resources */,
+				12AFAF4717A1C45B002B7EF2 /* Default.png in Resources */,
+				12AFAF4917A1C45B002B7EF2 /* Default@2x.png in Resources */,
+				12AFAF4B17A1C45B002B7EF2 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		12AFAF2D17A1C45A002B7EF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12AFAF4117A1C45B002B7EF2 /* main.m in Sources */,
+				12AFAF4517A1C45B002B7EF2 /* Aug1AppDelegate.m in Sources */,
+				12AFAF5317A1C4BE002B7EF2 /* ViewController.m in Sources */,
+				12AFAF5617A1C561002B7EF2 /* BandData.m in Sources */,
+				12AFAF7D17A1C9F0002B7EF2 /* View.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12AFAF3D17A1C45B002B7EF2 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12AFAF3E17A1C45B002B7EF2 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		12AFAF4C17A1C45B002B7EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		12AFAF4D17A1C45B002B7EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		12AFAF4F17A1C45B002B7EF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jul25/Jul25-Prefix.pch";
+				INFOPLIST_FILE = "Jul25/Jul25-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		12AFAF5017A1C45B002B7EF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jul25/Jul25-Prefix.pch";
+				INFOPLIST_FILE = "Jul25/Jul25-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		12AFAF2C17A1C45A002B7EF2 /* Build configuration list for PBXProject "Jul25" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12AFAF4C17A1C45B002B7EF2 /* Debug */,
+				12AFAF4D17A1C45B002B7EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		12AFAF4E17A1C45B002B7EF2 /* Build configuration list for PBXNativeTarget "Jul25" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12AFAF4F17A1C45B002B7EF2 /* Debug */,
+				12AFAF5017A1C45B002B7EF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 12AFAF2917A1C45A002B7EF2 /* Project object */;
+}

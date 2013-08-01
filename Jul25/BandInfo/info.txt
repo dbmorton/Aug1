@@ -1,0 +1,4 @@
+The Who,who.png,My Generation,who.mp3,who.txt,theWhoTab.png,whoclip
+Led Zepplin,led.png,Whole Lotta Love,led.mp3,led.txt,ledZepplinTab.png,ledclip
+The Rolling Stones,stones.png,Satisfaction,stones.mp3,stones.txt,rollingStonesTab.png,stonesclip
+The Doors,doors.png,Break On Through,doors.mp3,doors.txt,doorsTab.png,doorsclip
